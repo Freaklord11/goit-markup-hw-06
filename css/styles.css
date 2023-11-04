@@ -313,7 +313,6 @@ p{
 }
 
 .first-footer{
-
     padding-left: 10%;
 }
 .footer-body{
@@ -322,7 +321,7 @@ p{
 }
 
 .second-footer{
-    padding-left: 269px;
+    padding-left: 120px;
     display: flex;
     flex-direction: row;
     gap:80px;   
