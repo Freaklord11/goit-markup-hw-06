@@ -89,11 +89,11 @@
                         </svg>
                     </label>
 
-                  <label for="comments" class="serivce-textarea">
-                    <span class="input-label">Comment</span>
-                    <textarea width="100%" rows="8" class="textarea-comment" placeholder="Text Input"></textarea>
-                    
-                  </label>
+                    <label for="comment" class="comment-textarea">
+                      <span class="input-label">Comment</span>
+                      <textarea rows="8" class="comment-text-input" placeholder="Text Input"></textarea>
+                    </label>
+
               </form>
               </div>
            </div>
@@ -342,18 +342,22 @@
 
     <!--foorter-->
     <footer class="footer-end">
-    <div>
-    <div class="foot-header">
-      <a class="logo-footer" href="#"><span>WEB</span>STUDIO</a>
-    </div>
-    <div class="footer-body">
-      Increase the flow of customers and 
-      sales for your business with digital 
-      marketing & growth solutions.
-    </div>
+
+    <div class="first-footer">
+        <div class="foot-header">
+          <a class="logo-footer" href="#"><span>WEB</span>STUDIO</a>
+        </div>
+
+        <div class="footer-body">
+          Increase the flow of customers and 
+          sales for your business with digital 
+          marketing & growth solutions.
+      </div>
     </div>
 
-    <div class="social-footer">
+    <div class="second-footer">
+
+      <div class="social-container">
       <div class="social-header">Social Media</div>
       
       <div class="social-icon-div">
@@ -380,11 +384,28 @@
             <use href="./images/icons.svg#linkedin-1"></use>
           </svg>
         </a>
+        </div>
       </div>
-      
 
-    </div>
+      <div class="subscribe-container">
+        <div class="subscribe-footer">
+          <div class="subsrcibe-header">Subscibe</div>
+          <div class="subscribe-text-footer">
+            <input class="subscribe-text-input" type="text" placeholder="Email"/>
+            <div class="subs-btn-footer">
+              <button class="sub-btn">Subscribe
+                <svg width="24" height="24">
+                  <use href="./images/icons.svg#icon-send">
+                  </use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
     </footer>
     <script src="./js/modal.js"></script>
   </body>
+
 </html><!--commit-->
