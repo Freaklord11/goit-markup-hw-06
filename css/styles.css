@@ -21,6 +21,7 @@
 
 /*Body Default Value*/
 body{
+    margin: 0 auto;
     font-family: roboto,sans-serif;
     font-size:16px;
     font-weight: 400;
